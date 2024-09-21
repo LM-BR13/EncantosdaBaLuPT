@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+
+}
+body 
+{
+  background-image: url(./assets/—Pngtree—fashion\ pink\ purple\ gradient\ background_1285854.png);
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: cover;
+}
+#CONTAINER {
+  width: 360px;
+  margin: 56px auto 0px;
+  margin: auto;
+
+}
+
+
+#PROFILE {
+  text-align: center;
+  padding: 24px;
+}
+
+#PROFILE img{
+  width: 112px;
+  height: 112px;
+  margin: center;
+}
+
+body * {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: peru;
+  text-align: center;
+}
+
+#PROFILE p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px ;
+}
+
+/* links */
+
+ ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+
+}
+ 
+ul li a {
+border: 1px solid black;
+justify-content: center;
+align-items: center;
+display: inline-flex;
+padding: 16px 24px;
+width: 312px;
+height: 56px;
+background:  rgba(red, rgb(0, 255, 0), rgb(0, 0, 255), alpha);
+border: 1px solid rgba(red, rgb(0, 255, 0), blue, alpha);
+border-radius: 8px;
+
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+
+text-decoration: none;
+font-weight: bold;
+transition: all .5s;
+}
+/* pseude-selector */
+ul li a:hover {
+background:  rgba(red, rgb(0, 255, 0), rgb(0, 0, 255), alpha);
+border: 1.5px solid white;
+
+}
+
+/* social links */
+
+#social-links {
+display:flex;
+justify-content: center;
+padding: 24px 0;
+font-size: 24px ;
+
+}
+
+#social-links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.5s;
+  border-radius: 50%;
+
+}
+#social-links a:hover {
+background: rgba(255, 255, 255, 0.2);
+padding: 16px;
+
+}
+
+footer{
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
+
+}
+button:hover {
+  background: #03e9F4;
+  color:#050801;
+  box-shadow: 0 0 5px  #03e9F4, 0 0 25px #03e9F4,
+  0 0 50px #03e9F4, 0 0 200px #03e9F4;
+  --webkit-box-reflect: below 1px
+  linear-gradient(transparent, #0005);
+}
