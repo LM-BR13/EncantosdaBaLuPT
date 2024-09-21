@@ -18,7 +18,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="EncantosdaBaLu-PT" src=".github/capa.jpg" width="100%">
+  <img alt="EncantosdaBaLu-PT" src=".github/capanew.jpeg.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
